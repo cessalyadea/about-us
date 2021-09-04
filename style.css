@@ -1,0 +1,83 @@
+body{
+    margin:0;
+    padding: 0;
+    font-family: 'Monstserrat', sans-serif;
+    text-align: left;
+}
+.container{
+    width:50px;
+    height: 90vh;
+    margin: 10px;
+    justify-content: center;
+    align-items: left;
+    background-color: white;
+    flex-direction: column;
+    background-size: cover;
+    background-position: center center;
+    color: black;
+    padding: 0
+}
+.nav{
+    justify-content: space-between;
+    width: 70%;
+    margin: 10px;
+}
+.nav span{
+    margin-left: 20px;
+}
+.about us{
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 70px;
+    flex-direction: column;
+}
+.about-us{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.about-us span{
+    width: 100%;
+    align-items: center;
+    text-align: center;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:50px;
+}
+.card-img{
+    border-radius: 5px;
+
+}
+.cards .card{
+    width:16rem;
+    margin :20px;
+}
+.card p{
+    font-size:14px;
+}
+.social-link-text{
+    margin-top: 320px;
+    margin-bottom: 25px;
+}
+.about link{
+    padding-left: 0px;
+}
+.about-link li{
+    display: inline-block;
+}
+.about-link li a i{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    border: black;
+    margin-right: 10px;
+    font-size: 22px;
+    color: black;
+}
